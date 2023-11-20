@@ -25,5 +25,7 @@ def feladat_4():
     db = 0
     for i in range(7):
         szoveg = input("Kérek be szöveget: ")
-        
+        b = szoveg.rfind("b")
+        print(b)
+        db = db + b
     print(f"Ennyi db {db} b betű van a szövegbe.")
